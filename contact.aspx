@@ -6,6 +6,7 @@
 
 <head runat="server">
     <title>Web Contact Form</title>
+    <link rel="stylesheet" type="text/css" href="./css/stylesheet.css" />
 </head>
 
 <body>
@@ -13,6 +14,13 @@
 
         <!-- Check to see if you are in postback.  If not, display the contact form. -->
         <% If Not IsPostBack Then%>
+
+         <h1>Wicked Easy Recipes</h1>
+        <h3>Using 5 Ingedients or Less!</h3>
+    <ul>
+		<li> <a href="./default.aspx"> Home Page</a>&nbsp&nbsp |&nbsp&nbsp<a href="./insert.aspx"> New Recipe </a>&nbsp&nbsp |&nbsp&nbsp<a href="./about.aspx"> About Us </a>&nbsp&nbsp |&nbsp&nbsp<a href="./contact.aspx"> Contact </a></li>
+	</ul>
+        <br />
 
         Your email address:<br />
         <asp:TextBox ID="senderAddress" runat="server"></asp:TextBox>

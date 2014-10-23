@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>New Recipe</title>
     <link rel="stylesheet" type="text/css" href="./css/stylesheet.css" />
 
 </head>
@@ -15,9 +15,13 @@
        <h1>
            <asp:SqlDataSource ID="Sql_insert" runat="server" ConnectionString="<%$ ConnectionStrings:db_xiaochxu_hw6 %>" SelectCommand="SELECT * FROM [xiaochxu_hw6]"></asp:SqlDataSource>
         </h1>
-        <h1>Wicked Easy Recipes</h1>
+            <h1>Wicked Easy Recipes</h1>
         <h3>Using 5 Ingedients or Less!</h3>
-        <h3>Home | New Recipe | About Us | Contact</h3>
+       
+
+    <ul>
+		<li> <a href="./default.aspx"> Home Page</a>&nbsp&nbsp |&nbsp&nbsp<a href="./insert.aspx"> New Recipe </a>&nbsp&nbsp |&nbsp&nbsp<a href="./about.aspx"> About Us </a>&nbsp&nbsp |&nbsp&nbsp<a href="./contact.aspx"> Contact </a></li>
+	</ul>
         <p>
             <asp:FormView ID="FormView1" runat="server" DataKeyNames="ID" DataSourceID="Sql_insert" DefaultMode="Insert">
                 <EditItemTemplate>

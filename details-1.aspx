@@ -42,7 +42,7 @@
         <h3>Using 5 Ingedients or Less!</h3>
         <h3>Home | New Recipe | About Us | Contact</h3>
         <p>
-            <asp:DetailsView ID="DetailsView1" runat="server" AutoGenerateRows="False" DataKeyNames="ID" DataSourceID="Sql_DataSource1" Height="50px" Width="125px">
+            <asp:DetailsView ID="DetailsView1" runat="server" AutoGenerateRows="False" DataKeyNames="ID" DataSourceID="Sql_DataSource1" Height="168px" Width="308px">
                 <Fields>
                     <asp:BoundField DataField="recipe_name" HeaderText="Recipe Name:" SortExpression="recipe_name" />
                     <asp:BoundField DataField="submitted_by" HeaderText="Submitted By:" SortExpression="submitted_by" />
