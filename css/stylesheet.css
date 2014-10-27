@@ -1,0 +1,80 @@
+body {
+    background: #D2B48C;
+}
+
+.valid {height:25px;width:250px;color:red; font-weight:bold;text-align:left;}
+ul { margin:0px; padding:0; list-style:none; }
+li { margin-left:35px; margin-bottom:20px; padding:0;text-align:center;font-size:18px;}
+
+
+h1 {
+			font-size: 36pt;
+			font-family: "Comic Sans MS";
+			font-weight: bold;
+			text-align:center;
+			margin-top: 10px;
+			margin-bottom: 10px; 
+		}
+
+h3 {
+			font-size: 16pt;
+			font-family: "Comic Sans MS";
+			font-weight: bold;
+			text-align:center;
+			margin-top: 10px;
+			margin-bottom: 10px; 
+		}
+
+.picture {
+			border: solid 1px black; 
+			background: #fff;
+			width: 250px;
+			padding: 30px;
+			margin-right: auto;
+			margin-left: auto;
+			margin-top: 30px;
+			margin-bottom: 30px;
+			
+		}
+.about {
+    text-align: left;
+    font-size: 16px;
+    font-family: 'Times New Roman';
+    padding-right:35%;padding-left:35%;
+}
+
+
+.cssgridview {
+    background-color: #F08080;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: "Comic Sans MS";
+    margin-left:auto;
+    margin-right:auto;   
+    border: 20px solid white
+} 
+
+.cssgridview td { padding:10px; border:solid 1px #FFFFFF;color:#FFFFFF;font-size:16px;border:solid 1px #FFFFFF;}
+.cssgridview th {padding:10px; color:#696969;background:#FFFF99; font-size:20px;border:solid 1px #FFFFFF }
+
+
+.cssdetailsview {background-color:white;margin-left:auto;margin-right:auto;text-align:left;
+}
+
+.cssdetailsview .command a{background-color:green;color:white;text-align:center;}
+
+table{text-align:right; font-family:"Times New Roman";font-size:16px;}
+cell{color:white;font-family:"Times New Roman"}
+.foot{text-align:center; font-size:14px;font-family:"Times New Roman"}
+.content{text-align:center;}
+
+.title{height:30px;width:150px;text-align:right;font-size:14px;font-family:'Times New Roman';background-color:#ffff99;border:solid 2px #f08080;padding:10PX;}
+.cell {height:30px;width:220px;background-color:#f08080;padding:10PX;text-align:left;}
+.cssformview{margin-left:auto; margin-right:auto; }
+.button {text-align:center;}
+
+
+.recipetitle1 {text-align:right;background-color:#696969;font-size:26px;color:white;font-weight: bold;}
+.recipetitle2 {text-align:left;background-color:#696969;font-size:26px;color:white;font-weight: bold;}
+
+.deleted{color:red;font-size:26px;font-style:italic;text-align:center;margin:auto;}
